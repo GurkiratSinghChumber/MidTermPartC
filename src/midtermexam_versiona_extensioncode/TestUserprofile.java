@@ -22,9 +22,9 @@ public class TestUserprofile {
         UserProfile demoUser = new UserProfile();
         String[] genreList = demoUser.getGenreList();
         
-        System.out.print("Choose your favorite genre: ");
+        System.out.println("Choose your favorite genre: ");
         for(int i = 0; i< genreList.length;i++){
-            System.out.print((i+1)+" : "+genreList[i]);
+            System.out.println((i+1)+" : "+genreList[i]);
         }
         
         
