@@ -15,7 +15,8 @@ package midtermexam_versiona_extensioncode;
  */
 public class UserProfile 
 {
-    
+    // Name: Gurkirat Singh Chumber
+    //Student ID: 991716432
     private String userID;//the userID
     private String genre;// the user's preferred genre of movie
     private String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies
@@ -25,6 +26,7 @@ public class UserProfile
      * @param givenID the ID to assign to this user
      * @param givenGenre the users favourite genre
      */
+    //Created an non argument Constructor
     public UserProfile(){
     
     }
@@ -63,7 +65,7 @@ public class UserProfile
     public void setGenre(String genre) {
         this.genre = genre;
     }
-    
+    //Created an function to get the List
     public String[] getGenreList(){
         return this.genres;
     }
